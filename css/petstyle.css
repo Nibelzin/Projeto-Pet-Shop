@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 0;
+    margin: 0;
+}
+.logoContainer{
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url('../img/fundo-topo.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logoContainer img{
+    width: 200px;
+}
+.navContainer{
+    background-color: white;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #6dd432;
+}
+.greenSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(189, 255, 156);
+}
+.tittle{
+    margin: 40px;
+}
+.tittle p{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 18px;
+    display: block;
+    width: 700px;
+}
+.filhotes{
+    margin: 40px;
+}
+.produtosTituloContainer, .contatoTituloContainer{
+    text-align: center;
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.botaoComprarPatinha{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgb(131, 187, 102);
+    border-radius: 7px;
+    background-color: rgb(189, 255, 156);
+}
+.patinha{
+    padding-right: 5px;
+}
+.produtoImgBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+}
+.produtoTextBlock{
+    padding-top: 20px;
+    text-align: center;
+}
+.produto{
+    display: inline-block;
+    padding: 50px;
+}
+.produtosItens{
+    display: flex;
+    justify-content: center;
+}
+.imagensServicos{
+ margin: 40px;
+}
+.formContato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    margin-top: 100px;
+}
+.contatoMapa{
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+form{
+    font-weight: bold;
+    padding: 20px;
+    width: fit-content;
+}
+input, textarea{
+    width: 400px;
+    padding: 8px 10px;
+    border: 1px solid rgb(131, 187, 102);
+    margin-top: 5px;
+}
+textarea{
+    margin-bottom: 10px;
+}
+input, label{
+    display: block;
+}
+footer{
+    text-align: center;
+    margin: 30px;
+}
+footer p{
+    margin-top: 50px;
+}
+footer hr{
+    border-color: rgb(189, 255, 156);
+}
